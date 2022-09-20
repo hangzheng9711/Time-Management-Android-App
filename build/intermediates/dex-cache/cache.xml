@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhenghang/Documents/课程/计算机课程/研究与开发/TimeManage/app/libs/mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="/Users/zhenghang/Documents/课程/计算机课程/研究与开发/TimeManage/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6_7e8d66e6476c35fb4c839061c4cdb39cd9167b79.jar" />
+    </item>
+
+</items>

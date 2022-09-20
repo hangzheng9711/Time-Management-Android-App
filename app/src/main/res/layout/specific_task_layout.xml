@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="50%"
+        app:layout_marginTopPercent="5%"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonselecttime1"
+        android:text="选择开始日期"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        />
+    <Button
+        android:id="@+id/buttonselecttime2"
+        android:text="选择结束日期"
+        app:layout_marginTopPercent="8%"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        />
+    <EditText
+        android:id="@+id/showDate1"
+        android:layout_gravity="center|top"
+        android:editable="false"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="28%" />
+    <EditText
+        android:id="@+id/showDate2"
+        android:layout_gravity="center|top"
+        android:editable="false"
+        app:layout_marginTopPercent="8%"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="28%" />
+    <TextView
+        android:id="@+id/spinnerText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="38%"
+        app:layout_heightPercent="8%"
+        />
+    <Spinner
+        android:id="@+id/Spinner02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="38%"
+        app:layout_heightPercent="8%"
+        />
+    <Button
+        android:id="@+id/buttonhome2"
+        android:text="主界面"
+        android:layout_gravity="left|bottom"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        />
+    <Button
+        android:id="@+id/buttonlog2"
+        android:text="记录界面"
+        android:layout_gravity="bottom|center"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        />
+    <Button
+        android:id="@+id/buttonfenxi2"
+        android:text="分析界面"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        />
+
+    <Button
+        android:id="@+id/taskname_view"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="16%"
+        android:text="选择任务名称"
+        />
+    <EditText
+        android:id="@+id/taskname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        app:layout_widthPercent="29%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="16%"
+        />
+    <Button
+        android:id="@+id/ok"
+        android:text="确定"
+        android:layout_gravity="center|top"
+        app:layout_widthPercent="22%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="10%"
+        app:layout_marginLeftPercent="30%"
+        />
+
+
+
+
+</android.support.percent.PercentFrameLayout>

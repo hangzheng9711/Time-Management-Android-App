@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timemanege">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".First">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity android:name=".Filestore" android:label="档案库"/>
+        <activity android:name=".sec"/>
+        <activity android:name=".Stlook"/>
+        <activity android:name=".LongtermActivity"/>
+        <activity android:name=".playActivity"/>
+        <activity android:name=".editActivity"/>
+        <activity android:name=".newActivity"/>
+        <activity android:name=".editsec"/>
+
+        <activity android:name=".AddeditActivity" android:label="新建"/>
+        <activity android:name=".Analysis" android:label="分析"/>
+        <activity android:name=".Date_activity"/>
+        <activity android:name=".LongplanActivity" android:label="分析"/>
+        <activity android:name=".look_activity" android:label="查看"/>
+        <activity android:name=".OnlyTimePicker"/>
+        <activity android:name=".specific_task_activity" android:label="分析"/>
+        <activity android:name=".SpecificTimeActivity" android:label="分析"/>
+        <activity android:name=".timelog" android:label="记录"/>
+
+        <activity
+            android:name=".editFilestore"
+            android:label="@string/title_activity_filestore" />
+    </application>
+
+</manifest>

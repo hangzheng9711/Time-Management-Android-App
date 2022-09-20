@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Task" ></dbname>
+
+    <version value="1" ></version>
+
+    <list>
+        <mapping class="com.example.timemanege.LongTask"></mapping>
+        <mapping class="com.example.timemanege.ShortTask"></mapping>
+        <mapping class="com.example.timemanege.Module"></mapping>
+        <mapping class="com.example.timemanege.TimeList"></mapping>
+    </list>
+</litepal>

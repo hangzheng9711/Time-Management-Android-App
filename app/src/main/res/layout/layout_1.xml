@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/dateChoose"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/cal" />
+
+                <TextView
+                android:id="@+id/dateDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="140dp"
+                android:text="我是默认时间显示" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/addd"
+            android:id="@+id/stadd" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+        <ListView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:id="@+id/sttask_listview">
+        </ListView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorFirst">
+        <Button
+           android:layout_height="70dp"
+           android:layout_width="20dp"
+           android:layout_gravity="bottom"
+            android:background="@drawable/show1"
+           android:id="@+id/button_1"
+           android:layout_weight="1" />
+
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="20dp"
+            android:background="@drawable/rec1"
+           android:id="@+id/button_3"
+           android:layout_gravity="bottom"
+           android:layout_weight="1"/>
+
+        <Button
+           android:layout_gravity="bottom"
+           android:id="@+id/button_2"
+            android:background="@drawable/anal1"
+            android:layout_height="70dp"
+            android:layout_width="20dp"
+           android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="60px"
+
+            android:id="@+id/stlook_taskname"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format="00:00:00"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/timer"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="onStart"
+        android:gravity="center"
+
+        android:id="@+id/start"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/stlook_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/stloook_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/store_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="归档"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/stlook_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
